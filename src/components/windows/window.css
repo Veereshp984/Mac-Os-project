@@ -36,4 +36,11 @@
 }
 .window .main-content {
   height: 100%;
+}
+.window *::-webkit-scrollbar {
+  width: 8px;
+}
+.window *::-webkit-scrollbar-thumb {
+  background-color: #8a7f7f;
+  border-radius: 4px;
 }/*# sourceMappingURL=window.css.map */

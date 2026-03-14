@@ -16,5 +16,11 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/public/bgImage.avif);
+  background-image: url(/bgImage.avif);
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  background-color: black;
 }/*# sourceMappingURL=app.css.map */

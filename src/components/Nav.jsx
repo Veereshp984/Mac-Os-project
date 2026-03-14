@@ -6,7 +6,7 @@ const Nav = () => {
     <nav>
         <div className="left">
             <div className="apple-icon">
-                <img src="/public/navbar-icons/apple.svg" alt="" />
+                <img src="/navbar-icons/apple.svg" alt="" />
             </div>
             <div className="nav-item">
                 <p>Veeresh Pasare</p>
@@ -23,7 +23,7 @@ const Nav = () => {
         </div>
         <div className="right">
             <div className="nav-icon">
-                <img src="/public/navbar-icons/wifi.svg" alt="" />
+                <img src="/navbar-icons/wifi.svg" alt="" />
             </div>
              <div className="nav-item">
                 <DateTime/>
