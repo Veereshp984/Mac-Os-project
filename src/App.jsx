@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Github from './components/github'
 import Note from './components/windows/note'
 import Resume from './components/windows/Resume'
+import Spotify from './components/windows/Spotify'
 const App = () => {
   return (
     <main>
@@ -12,6 +13,7 @@ const App = () => {
       <Dock/>
       <Note/>
       <Resume/>
+      <Spotify/>
      <Github/>
     </main>
   )
