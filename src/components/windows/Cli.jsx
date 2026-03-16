@@ -110,9 +110,9 @@ const welcomeMessage = [
   `Commands: ${commandList.join(", ")}`,
 ];
 
-const Cli = () => {
+const Cli = ({ onClose }) => {
   return (
-    <MacWindow>
+    <MacWindow onClose={onClose}>
       <div className="cli-window">
         <Terminal
           commands={commands}

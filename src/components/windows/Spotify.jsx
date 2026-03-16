@@ -1,9 +1,9 @@
 import React from "react";
 import MacWindow from "./MacWindow";
 import "./spotify.scss"
-const Spotify = () => {
+const Spotify = ({ onClose }) => {
   return (
-    <MacWindow width="30rem">
+    <MacWindow width="31rem" height="31rem" onClose={onClose}>
       <div className="spotify-window">
         <iframe
           data-testid="embed-iframe"

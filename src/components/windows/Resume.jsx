@@ -2,9 +2,9 @@ import React from 'react'
 import MacWindow from './MacWindow'
 import "./resume.scss"
 
-const Resume = () => {
+const Resume = ({ onClose }) => {
   return (
-    <MacWindow>
+    <MacWindow onClose={onClose}>
         <div className="resume_window">
             <embed src="/resume.pdf" frameBorder="0"></embed>
         </div>

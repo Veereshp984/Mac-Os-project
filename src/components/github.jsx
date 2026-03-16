@@ -31,9 +31,9 @@ const GitCard =  ({
   );
 };
 
-const Github = () => {
+const Github = ({ onClose }) => {
   return (
-    <MacWindow>
+    <MacWindow onClose={onClose}>
       <div className="cards">
         {githubData.map((project) => {
           return <GitCard key={project.id} data={project} />;
