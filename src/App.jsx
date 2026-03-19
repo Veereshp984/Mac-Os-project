@@ -1,13 +1,12 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import "./app.scss"
 import Dock from './components/Dock'
 import Nav from './components/Nav'
 import Github from './components/github'
-import Note from './components/windows/note'
+import Note from './components/windows/Note'
 import Resume from './components/windows/Resume'
 import Spotify from './components/windows/Spotify'
 import Cli from './components/windows/Cli'
-import { github } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 
 
 const App = () => {
